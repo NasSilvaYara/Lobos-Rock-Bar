@@ -1,6 +1,6 @@
 <p align="center">
 <a href="[COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI]">
-<img src="./imagens/lobos.png" alt="Banner: Lobos Rock Bar - A Alma do Rock em Suzano" width="850">
+<img src="Logo.jpg" alt="Banner: Lobos Rock Bar - A Alma do Rock em Suzano" width="850">
 </a>
 </p>
 
