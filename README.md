@@ -1,66 +1,76 @@
-# Lobos-Rock-Bar
+<p align="center">
+<a href="[COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI]">
+<img src="./imagens/lobos.png" alt="Banner: Lobos Rock Bar - A Alma do Rock em Suzano" width="850">
+</a>
+</p>
 
-# 🎸 Rock Bar "Rel" - Projeto Interdisciplinar Fatec Itaquera
+<p align="center">
+<a href="[COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI]" target="_blank">
+<img src="https://img.shields.io/badge/Status-Online-red?style=for-the-badge&logo=firebase&logoColor=white" alt="Deploy Online">
+</a>
+<img src="https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-darkred?style=for-the-badge&logo=javascript&logoColor=white" alt="Tecnologias">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Curso-Fatec%2520Itaquera-orange%3Fstyle%3Dfor-the-badge%26logo%3Dgit%26logoColor%3Dwhite" alt="Curso Fatec Itaquera">
+<a href="https://maps.google.com/?q=Av.+Antonio+Marques+Figueira+397,+Suzano+SP" target="_blank">
+<img src="https://img.shields.io/badge/Localização-Suzano%20SP-black?style=for-the-badge&logo=google-maps&logoColor=white" alt="Localização">
+</a>
+</p>
 
-[![Status: Online](https://img.shields.io/badge/Status-Online-brightgreen)]([COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI])
-[![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)](https://fatecitaquera.edu.br/)
-[![Curso](https://img.shields.io/badge/Curso-DM%20Fatec%20Itaquera-orange)](https://fatecitaquera.edu.br/)
+🐺 LOBOS ROCK BAR: APRESENTAÇÃO DO PROJETO INTERDISCIPLINAR
 
----
+"Plataforma web criada para o Lobos Rock Bar, unindo a estética underground com a funcionalidade de um site de serviços. Foco total em Mobile-First."
 
-## 🚀 Visualização do Projeto (Site Funcionando)
+🔗 Acesse o Site
 
-O site do Bar de Rock "Rel" está hospedado e pode ser acessado no link abaixo:
+<p align="center">
+<a href="[COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI]" target="_blank">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/ACESSAR%2520SITE%2520-VERMELHO%2520ROCK-red%3Fstyle%3Dfor-the-badge%26logo%3Dapache%26logoColor%3Dwhite" alt="Acessar o Lobos Rock Bar">
+</a>
+</p>
 
-[**ACESSAR O SITE COMPLETO AQUI**]([COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI])
+✨ DESTAQUES & FUNCIONALIDADES
 
----
+O site foi desenvolvido para ser o ponto central de informação do bar, cobrindo:
 
-## 💡 Introdução e Conceito (PI Fatec DM)
+📅 Agenda: Shows ao vivo de quarta a domingo (Ex: Tributos e Voz & Violão).
 
-**[COLOCAR UMA DESCRIÇÃO COMPLETA AQUI - Descreva o tema do projeto interdisciplinar, qual o objetivo do site (vender ingressos, divulgar eventos, cardápio) e o porquê da temática rock 'n' roll. Mínimo 3 parágrafos.]**
+🍔 Cardápio: Hambúrgueres artesanais e porções, com interface otimizada para celular.
 
-*Exemplo de Tópicos para a Descrição:*
-* **Público-Alvo:** Fãs de rock, moradores da Zona Leste, estudantes da Fatec.
-* **Objetivo:** Centralizar informações de eventos, cardápio e galeria de fotos do bar.
-* **Contexto PI:** Aplicação prática dos conceitos de [Mencione as disciplinas aplicadas: P.O.O, Design, etc.].
+🤝 Parcerias: Destaque para Água Dane-se e Studio de Tatuagem, promovendo a cultura local.
 
----
+🛠️ Tecnologia: Construído com HTML Semântico, CSS3 e JavaScript (Fatec DM).
 
-## 🖼️ Galeria de Imagens e Slides
+🖼️ VISUAL DO PROTÓTIPO
 
-Aqui você pode ver o visual final e a estrutura de design do site.
+Home Page
 
-### 1. Home Page Principal
+A tela inicial, projetada para impacto imediato e alinhada à estética escura e underground do bar.
 
-**[COLOCAR A DESCRIÇÃO: Explique o que a imagem mostra (layout, cores, logo, menu). Ex: "O layout principal foi desenvolvido com foco na usabilidade mobile-first e utiliza cores escuras para refletir o ambiente rock." ]**
+Carrossel Dinâmico
 
-![Screenshot da Página Inicial do Bar](./img/home-screenshot.png)
+Demonstração da interatividade da seção [ESPECIFIQUE A SEÇÃO COM GIF], mostrando a promoção fluida dos eventos.
 
-### 2. Destaque dos Slides de Imagens
+<p align="center">
+<img src="./img/slider-demo.gif" alt="Demonstração do Slider de Eventos" width="700">
+</p>
 
-**[COLOCAR A DESCRIÇÃO: Explique como o seu slider funciona (ex: mostra eventos da semana) e justifique a tecnologia usada (ex: "Foi usado JavaScript puro para otimizar o carregamento e evitar dependências de bibliotecas externas.")]**
+👥 EQUIPE DM FATEC ITAQUERA
 
-*Para colocar a imagem, você deve ter a pasta `img` no seu repositório com o arquivo `home-screenshot.png` (ou similar).*
+Nome Completo
 
----
+Contato
 
-## 💻 Código em Destaque e Formulário
+[SEU NOME COMPLETO]
 
-O código a seguir é fundamental para a funcionalidade de [Colocar a funcionalidade principal: Ex: o *slider* de eventos, a validação de um formulário de contato, ou a exibição do cardápio dinâmico].
+[Link para o perfil do GitHub ou LinkedIn]
 
-### Trecho de Código (Exemplo de Validação de Formulário)
+[NOME DO COLEGA 1]
 
-**[COLOCAR A DESCRIÇÃO: Explique o que este trecho de código faz. Ex: "Este trecho de JavaScript garante que todos os campos do nosso 'Formulário de Inscrição VIP' sejam preenchidos corretamente antes de enviar os dados."]**
+[Link para o perfil do GitHub ou LinkedIn]
 
-```javascript
-// Exemplo: Coloque um código do seu arquivo .js aqui (Máximo 10 linhas)
-document.getElementById('form-vip').addEventListener('submit', function(event) {
-    let nome = document.getElementById('nome').value;
-    let email = document.getElementById('email').value;
+[NOME DO COLEGA 2]
 
-    if (nome === "" || email === "") {
-        event.preventDefault(); // Impede o envio
-        alert("Por favor, preencha todos os campos do formulário VIP.");
-    }
-});
+[Link para o perfil do GitHub ou LinkedIn]
+
+<p align="center">
+<small>🚀 Projeto desenvolvido para fins acadêmicos - [ANO]</small>
+</p>
