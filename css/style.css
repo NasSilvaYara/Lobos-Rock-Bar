@@ -43,19 +43,23 @@ header nav {
   list-style: none;
 }
 
-.navbar li {
+.navbar li.nav-item {
   margin: 0 2vw;
 }
 
-.navbar li a {
+.navbar li.nav-item a {
   text-decoration: none;
   color: #fff;
   transition: 0.3s;
+  padding-bottom: 5px;
 }
 
-.navbar li a:hover {
-  color: #ff751f;
+.navbar li.nav-item a.active{
+    border-bottom: 3px solid  #ff751f;
 }
+
+
+
 
 #eventos {
             background-color: #101010; 
@@ -423,30 +427,10 @@ header nav {
     margin-right: 15px;
 }
 
-@media (max-width: 768px) {
 
-    #servicos li {
-        margin-bottom: 10px;
-        font-size: 1rem; 
-    }
-
-    #servicos .icone-lista,
-    #servicos li i {
-        width: 32px;
-        font-size: 32px;
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    #servicos ul {
-        padding: 0 10px; 
-    }
-}
 
 #sobre, #cardapio, #parcerias, #localizacao, #contato {
-  height: 100vh;
+  min-height: 100vh
 }
 
 #sobre { background-color: #101010; }
@@ -515,3 +499,79 @@ header nav {
   }
 
 }
+
+
+@media (max-width: 900px){
+   #servicos {
+    height: 60vh;
+    align-items: center;
+}
+
+#servicos ul {
+    flex-direction: column;
+    gap: 30px;
+}
+}
+
+#sobre{
+    scroll-margin-top: 17vh;
+    padding-top: 5vh;
+}
+
+#sobre .tituloSobre{
+    font-weight: 600;
+    text-align: center;
+}
+
+
+#sobre .informacoesSobre ul{
+   display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#sobre .informacoesSobre li {
+  display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+#sobre .informacoesSobre ul li p.descSobreLobos{
+    max-width: 500px;
+    line-height: 1.6;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #c2bdb8;
+}
+
+#sobre .informacoesSobre ul li p.descSobreLobos span{
+    color: #fff;
+}
+
+#sobre .informacoesSobre li img {
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+@media (max-width: 900px) {
+  #sobre .informacoesSobre li {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  #sobre .informacoesSobre ul li p.descSobreLobos{
+    margin: 20px;
+}
+
+  #sobre .informacoesSobre li img {
+    width: 80%;
+  }
+    }
