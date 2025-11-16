@@ -362,12 +362,13 @@ header nav {
         }
 
 #servicos {
-    height: 20vh;
+ 
     background-color: #ff751f;
     color: #fff;
     font-weight: 700;
     display: flex;
     align-items: center;
+    padding: 40px 0;
 }
 
 #servicos ul {
@@ -464,16 +465,31 @@ header nav {
 
 
 @media (max-width: 900px){
-   #servicos {
-    height: 60vh;
-    align-items: center;
+    #servicos ul {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    #servicos li {
+        width: 45%;
+    }
 }
 
-#servicos ul {
-    flex-direction: column;
-    gap: 30px;
+@media (max-width: 600px){
+    #servicos ul {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #servicos li {
+        width: 100%;
+    }
+
+    #servicos li i {
+        font-size: 40px;
+    }
 }
-}
+
 
 #sobre{
     scroll-margin-top: 17vh;
