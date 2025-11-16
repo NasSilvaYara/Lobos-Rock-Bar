@@ -13,9 +13,6 @@
     });
 });
 
-  
-  
-  
   document.addEventListener("DOMContentLoaded", () => {
 
             const carousel = document.getElementById("mainCarousel");
@@ -129,76 +126,25 @@
              setInterval(() => moveTo(currentIndex + 1), 5000); 
         });
 
-        document.addEventListener('DOMContentLoaded', function() {
-    // 1. Seleciona todos os links de navegação
-    const navLinks = document.querySelectorAll('.navbar li.nav-item a');
-    
-    // 2. Seleciona todas as seções (usando os mesmos IDs dos links)
-    // O map percorre os links e retorna uma lista de elementos de seção correspondentes.
-    const sections = Array.from(navLinks).map(link => {
-        // Pega o ID da seção (ex: "#eventos")
-        const sectionId = link.getAttribute('href');
-        // Retorna o elemento da seção correspondente
-        return document.querySelector(sectionId);
-    }).filter(section => section !== null); // Remove itens nulos, se houver
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const fechar = document.querySelector(".fechar");
 
-    // Função para remover a classe 'active' de todos os links
-    function removeActiveClass() {
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-        });
-    }
-
-    // Função para adicionar a classe 'active' ao link correspondente
-    function setActiveLink(sectionId) {
-        removeActiveClass();
-        const activeLink = document.querySelector(`.navbar li.nav-item a[href="${sectionId}"]`);
-        if (activeLink) {
-            activeLink.classList.add('active');
-        }
-    }
-
-    // Lógica de Monitoramento de Rolagem (Scrollspy)
-    function onScroll() {
-        // Pega a posição do topo da janela de visualização + um pequeno offset (margem)
-        const scrollPosition = window.scrollY + 100; 
-
-        // Itera pelas seções
-        sections.forEach(section => {
-            if (section) {
-                // Posição de onde a seção começa
-                const sectionTop = section.offsetTop;
-                // Posição de onde a seção termina
-                const sectionBottom = section.offsetTop + section.offsetHeight;
-                
-                // Verifica se a posição de rolagem está DENTRO dos limites da seção
-                if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                    setActiveLink('#' + section.id);
-                }
-            }
-        });
-    }
-
-    //  Lógica para Atualizar ao Clicar (Garante o active imediato)
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            // Se você quiser que o active seja imediato ao clique, descomente estas duas linhas:
-            // removeActiveClass();
-            // link.classList.add('active');
-            
-            // Depois de clicar, o scroll do navegador muda, e a função onScroll
-            // irá cuidar da atualização correta.
-            
-            // É bom forçar um pequeno delay para garantir que onScroll rode depois do scroll terminar
-            setTimeout(onScroll, 300); 
+    document.querySelectorAll(".galeria img").forEach(img => {
+        img.addEventListener("click", () => {
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
         });
     });
 
-    //  Adiciona o listener de evento de rolagem
-    window.addEventListener('scroll', onScroll);
+    fechar.addEventListener("click", () => {
+        lightbox.style.display = "none";
+    });
 
-    // Garante que o estado inicial (ao carregar a página) esteja correto
-    onScroll(); 
-});
+    // fechar clicando fora da imagem
+    lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) {
+            lightbox.style.display = "none";
+        }
+    });
 
-        
