@@ -9,7 +9,6 @@
 <img src="https://img.shields.io/badge/Status-Online-red?style=for-the-badge&logo=firebase&logoColor=white" alt="Deploy Online">
 </a>
 <img src="https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-darkred?style=for-the-badge&logo=javascript&logoColor=white" alt="Tecnologias">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Curso-Fatec%2520Itaquera-orange%3Fstyle%3Dfor-the-badge%26logo%3Dgit%26logoColor%3Dwhite" alt="Curso Fatec Itaquera">
 <a href="https://maps.google.com/?q=Av.+Antonio+Marques+Figueira+397,+Suzano+SP" target="_blank">
 <img src="https://img.shields.io/badge/Localização-Suzano%20SP-black?style=for-the-badge&logo=google-maps&logoColor=white" alt="Localização">
 </a>
@@ -53,24 +52,32 @@ Demonstração da interatividade da seção [ESPECIFIQUE A SEÇÃO COM GIF], mos
 <img src="./img/slider-demo.gif" alt="Demonstração do Slider de Eventos" width="700">
 </p>
 
-👥 EQUIPE DM FATEC ITAQUERA
+👥 EQUIPE DSM FATEC ITAQUERA
 
-Nome Completo
+Gabriel da Silva Alves
+Paulo Henrique Soares Pereira
+Nicoly dos Santos Silva
+
+https://www.linkedin.com/in/niczonha/
+https://github.com/niczonha
+
+Livia de Queiroz Schendroski
+Yara Nascimento da Silva
+
 
 Contato
 
-[SEU NOME COMPLETO]
 
 [Link para o perfil do GitHub ou LinkedIn]
 
-[NOME DO COLEGA 1]
 
-[Link para o perfil do GitHub ou LinkedIn]
 
-[NOME DO COLEGA 2]
 
-[Link para o perfil do GitHub ou LinkedIn]
+
+
+
+
 
 <p align="center">
-<small>🚀 Projeto desenvolvido para fins acadêmicos - [ANO]</small>
+<small>🚀 Projeto desenvolvido para fins acadêmicos - [2025]</small>
 </p>
