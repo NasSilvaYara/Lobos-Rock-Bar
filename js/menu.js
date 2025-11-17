@@ -138,79 +138,79 @@
                     nome: "ICE KISS",
                     ingredientes: "Vodka de frutas vermelhas, Leite condensado, morango e gelo",
                     preco: "18.00",
-                    imagem: "img/bebidas/drinksicekiss.png",
+                    imagem: "img/bebidas/drinkicekiss.png",
                 },
                 {
                     nome: "CUBA LIBRE",
                     ingredientes: "Rum, Coca-Cola, Fatia de limão e gelo",
                     preco: "18.00",
-                    imagem: "img/bebidas/drinkscubalibre.png",
+                    imagem: "img/bebidas/drinkcubalibre.png",
                 },
                 {
                     nome: "NEGRONI",
                     ingredientes: "Vermoth rosso, campari, gin, laranja e limão e gelo.",
                     preco: "20.00",
-                    imagem: "img/bebidas/drinksnegroni.png",
+                    imagem: "img/bebidas/drinknegroni.png",
                 },
                 {
                     nome: "FRONZEN",
                     ingredientes: "Skol Beats, Leite condensado, limão e gelo.",
                     preco: "20.00",
-                    imagem: "img/bebidas/drinksfronzen.png",
+                    imagem: "img/bebidas/drinkfronzen.png",
                 },
                 {
                     nome: "JAGER BOMGER",
                     ingredientes: "Jagermaster com Redbull ou Heineken.",
                     preco: "32.00",
-                    imagem: "img/bebidas/drinksjaguerbomger.png",
+                    imagem: "img/bebidas/drinkjagerbomger.png",
                 },
                 {
                     nome: "MOJITO",
                     ingredientes: "Rum branco, soda ou água c/gás, hotela, limão e gelo.",
                     preco: "30.00",
-                    imagem: "img/bebidas/drinksmojito.png",
+                    imagem: "img/bebidas/drinkmojito.png",
                 },
                 {
                     nome: "GIN TÔNICA",
                     ingredientes: "Gin, Água Tônica (Limão, Morango ou maracujá)",
                     preco: "20.00",
-                    imagem: "img/bebidas/drinksgintonica.png",
+                    imagem: "img/bebidas/drinkgintonica.png",
                 },
                 {
                     nome: "HI-FI",
                     ingredientes: "Smirnoff, Fanta Laranja, gelo e rodela de laranja.",
                     preco: "18.00",
-                    imagem: "img/bebidas/drinkshi-fi.png",
+                    imagem: "img/bebidas/drinkhi-fi.png",
                 },
                 {
                     nome: "MELANCIA BABY",
                     ingredientes: "Beba seu drink direto na melancia com smirnoff, saque ou cachaça e ainda degusta a propria fruta (Acompanha colher).",
                     preco: "18.00",
-                    imagem: "img/bebidas/drinksmalanciababy.png",
+                    imagem: "img/bebidas/drinkmelancia baby.png",
                 },
                 {
                     nome: "CANELINHA PRÓ",
                     ingredientes: "Canelinha, Leite condensado, limão, canela em pau e gelo.",
                     preco: "15.00",
-                    imagem: "img/bebidas/drinkscanelinhapro.png",
+                    imagem: "img/bebidas/drinkcanelinhapro.png",
                 },
                 {
                     nome: "GIN MELANCIA",
                     ingredientes: "Gin de melancia, gelo de melancia e energético melancia.",
                     tag: "POPULAR",
                     preco: "20.00",
-                    imagem: "img/bebidas/drinksginmelancia.png",
+                    imagem: "img/bebidas/drinkginmelancia.png",
                 },
                 {
                     nome: "CHEVETTE",
                     preco: "18.00",
-                    imagem: "img/bebidas/drinkschavette.png",
+                    imagem: "img/bebidas/drinkchavette.png",
                 },
                 {
                     nome: "VODKA RED FRUITS",
                     ingredientes: "Vodka de frutas vermelhas, energético e gelo.",
                     preco: "15.00",
-                    imagem: "img/bebidas/drinksvodkaredfruits.png",
+                    imagem: "img/bebidas/drinkvodkaredfruits.png",
                 },
             ],
             "Caipirinhas": [
@@ -242,19 +242,9 @@
                     imagem: "img/bebidas/dosekariri.png",
                 },
                 {
-                    nome: "VELHO BARREIRO COM MEL E LIMÃO",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosevelhobarreiro.png",
-                },
-                {
                     nome: "MARIA MOLE",
                     preco: "8.00",
                     imagem: "img/bebidas/dosemariamole.png",
-                },
-                {
-                    nome: "DOMECO COM MEL E LIMÃO",
-                    preco: "12.00",
-                    imagem: "img/bebidas/dosedomecq.png",
                 },
                 {
                     nome: "SANGUE DE MORCEGO",
@@ -358,11 +348,6 @@
             ],
             "Vinhos": [
                 {
-                    nome: "GARRAFA CHALISE ",
-                    preco: "35.00",
-                    imagem: "img/bebidas/vinhochalise.png",
-                },
-                {
                     nome: "GARRAFA PERGOLA",
                     preco: "40.00",
                     imagem: "img/bebidas/vinhopergola.png",
@@ -385,12 +370,7 @@
                     imagem: "img/bebidas/BNAguarana.png",
                 },
                 {
-                    nome: "ÁGUA",
-                    preco: "6.00",
-                    imagem: "img/bebidas/BNAagua.png",
-                },
-                {
-                    nome: "ÁGUA COM GÁS",
+                    nome: "ÁGUA S/C GÁS",
                     preco: "6.00",
                     imagem: "img/bebidas/BNAaguacgas.png",
                 },
@@ -422,11 +402,6 @@
                     imagem: "img/bebidas/cervejaskol.png",
                 },
                 {
-                    nome: "HEINEKER LONG NECK",
-                    preco: "12.00",
-                    imagem: "img/bebidas/cervejaheineken.png",
-                },
-                {
                     nome: "BUDWISER LONG NECK",
                     preco: "12.00",
                     imagem: "img/bebidas/cervejabundwiser.png",
@@ -440,11 +415,6 @@
                     nome: "BRAHMA P MALTE 350ML",
                     preco: "7.00",
                     imagem: "img/bebidas/cervejabrahma.png",
-                },
-                {
-                    nome: "CORONA LONG NECK",
-                    preco: "14.00",
-                    imagem: "img/bebidas/cervejacorona.png",
                 },
                 {
                     nome: "SKOL BEATS LONG NECK",
@@ -473,32 +443,29 @@
                 },
             ]
         };
-        // --- ESTADO GLOBAL ---
+
         let categoriaatual = "Drinks";
         let indiceatual = 0;
         let bebidasatuais = menuData[categoriaatual];
-        // ------------------------------------
-        // --- FUNÇÕES DO CARROSSEL ---
-        // ------------------------------------
+
         function atualizarbebidas(indice) {
             const totalbebidas = bebidasatuais.length;
-            // Calcula o próximo índice. Se houver apenas 1 bebida, o índice 2 é o 0.
             const indice2 = (totalbebidas > 1) ? (indice + 1) % totalbebidas : 0;
             const bebida1 = bebidasatuais[indice];
             const bebida2 = (totalbebidas > 1) ? bebidasatuais[indice2] : null;
 
-            // 1. Atualiza Bebida 1 (Nome, Ingredientes, etc.)
+
             document.getElementById('bebidalnome').textContent = bebida1 ? bebida1.nome : "N/A";
-            // Adiciona um separador se a descrição for muito longa
+ 
             document.getElementById('bebidalingredientes').textContent = bebida1 ? (bebida1.ingredientes && bebida1.ingredientes.length > 50 ? bebida1.ingredientes.slice(0, 50) + '...' : bebida1.ingredientes || "---") : "Sem dados.";
             document.getElementById('bebidaltag').textContent = bebida1 ? bebida1.tag || "---" : "---";
 
-            // Atualiza o Preço 1 (Injetando a tag R$)
+
             const preco1Div = document.getElementById('bebidalpreco');
             preco1Div.innerHTML = bebida1 ? `<span class="moeda">R$</span> ${bebida1.preco}` : `<span class="moeda">R$</span> 0.00`;
 
             const copo1 = document.getElementById('bebidalcopo');
-            copo1.innerHTML = ''; // Limpa o conteúdo anterior
+            copo1.innerHTML = ''; 
 
             if (bebida1 && bebida1.imagem) {
                 const img = document.createElement('img');
@@ -507,7 +474,6 @@
                 copo1.appendChild(img);
             }
 
-            // 2. Atualiza Bebida 2
             const nome2 = document.getElementById('bebida2nome');
             const ingredientes2 = document.getElementById('bebida2ingredientes');
             const tag2 = document.getElementById('bebida2tag');
@@ -528,7 +494,7 @@
                     copo2.appendChild(img);
                 }
             } else {
-                // Placeholder para o slot 2 se houver apenas 1 item
+ 
                 nome2.textContent = "ESPAÇO";
                 ingredientes2.textContent = "Categoria com apenas 1 item. Navegue de volta para a primeira bebida.";
                 tag2.textContent = "---";
@@ -538,7 +504,7 @@
 
         function proximabebida() {
             if (bebidasatuais.length < 2) {
-                // Mesmo com 1 item, permite o loop para o próprio item
+
                 indiceatual = (indiceatual + 1) % bebidasatuais.length;
             } else {
                 let proximoindice = indiceatual + 2;
@@ -552,16 +518,16 @@
 
         function bebidaanterior() {
             if (bebidasatuais.length < 2) {
-                // Mesmo com 1 item, permite o loop para o próprio item
+
                 indiceatual = (indiceatual - 1 + bebidasatuais.length) % bebidasatuais.length;
             } else {
                 let indiceanterior = indiceatual - 2;
                 if (indiceanterior < 0) {
-                    // Se a lista tem um número ímpar, o último par é o penúltimo item
+
                     if (bebidasatuais.length % 2 !== 0) {
                         indiceanterior = bebidasatuais.length - 1;
                     } else {
-                        // Se a lista tem número par, o último par começa no (total - 2)
+
                         indiceanterior = bebidasatuais.length - 2;
                     }
                 }
@@ -569,20 +535,17 @@
             }
             atualizarbebidas(indiceatual);
         }
+        
 
-        // ------------------------------------
-        // --- FUNÇÕES DO MENU ---
-        // ------------------------------------
+
         function mudarcategoria(novacategoria) {
             if (categoriaatual === novacategoria) return;
 
             categoriaatual = novacategoria;
             bebidasatuais = menuData[categoriaatual];
             indiceatual = 0;
-            // Reinicia o carrossel na nova categoria
 
             atualizarbebidas(indiceatual);
-            // Atualiza o estado visual do botão ativo
             document.querySelectorAll('.botaocategoria').forEach(botao => {
                 botao.classList.remove('ativo');
                 if (botao.dataset.categoria === novacategoria) {
@@ -592,7 +555,6 @@
         }
 
         function criarmenu() {
-            // CORREÇÃO APLICADA AQUI: Busca o ID 'lista-categorias' (com hífen)
             const listacategorias = document.getElementById('lista-categorias'); 
             
             if (!listacategorias) {
@@ -611,7 +573,6 @@
                 listacategorias.appendChild(botao);
             });
 
-            // Define o estado ativo no botão inicial
             const botaoinicial = document.querySelector(`.botaocategoria[data-categoria="${categoriaatual}"]`);
             if (botaoinicial) {
                 botaoinicial.classList.add('ativo');
@@ -620,10 +581,8 @@
 
         window.onload = function() {
             criarmenu(); 
-            // Atribui eventos de clique às setas
             document.getElementById('setaesquerda').onclick = bebidaanterior;
             document.getElementById('setadireita').onclick = proximabebida;
-            // Carrega o primeiro conjunto de bebidas
             atualizarbebidas(indiceatual);
         };
 
@@ -642,7 +601,6 @@
         lightbox.style.display = "none";
     });
 
-    // fechar clicando fora da imagem
     lightbox.addEventListener("click", (e) => {
         if (e.target === lightbox) {
             lightbox.style.display = "none";
