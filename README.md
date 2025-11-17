@@ -35,7 +35,7 @@ O site foi desenvolvido para ser o ponto central de informação do bar, cobrind
 
 🤝 Parcerias: Destaque para Água Dane-se e Studio de Tatuagem, promovendo a cultura local.
 
-🛠️ Tecnologia: Construído com HTML Semântico, CSS3 e JavaScript (Fatec DM).
+🛠️ Tecnologia: Construído com HTML Semântico, CSS3 e JavaScript (Fatec DSM).
 
 🖼️ VISUAL DO PROTÓTIPO
 
