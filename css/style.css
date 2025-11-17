@@ -64,14 +64,15 @@ header nav {
 
 #eventos {
     background-color: #101010; 
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center;
-    min-height: 50vh;
-    padding: 80px 0;
-    flex-direction: column;
-    overflow: hidden;
-    padding-top: 20px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            padding: 80px 0;
+            flex-direction: column;
+            overflow: hidden;
+             scroll-margin-top: 17vh;
+    padding-top: 5vh;
 }
 
 .Carrosel {
@@ -80,7 +81,7 @@ header nav {
     max-width: 100vw;
     height: 60vh; 
     min-height: 400px; 
-    margin: 0 auto 40px auto;
+    margin: 0 auto 50px auto;
     overflow: visible;
     display: flex;
     justify-content: center;
@@ -375,7 +376,7 @@ header nav {
     align-items: center; 
     z-index: 100; 
 }
-.imgLogo { height: 70px; }
+
 .navbar a { 
     font-size: 1.15rem; 
     color: #fff; 
@@ -535,7 +536,7 @@ main { padding-top: 100px; }
 .menu {
     width: 100%;
     background-color: #101010; 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); 
+   
     z-index: 10;
     padding: 1rem 0; 
     flex-shrink: 0;
@@ -555,7 +556,7 @@ main { padding-top: 100px; }
     padding: 0.6rem 1.2rem; 
     font-size: 1rem;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.4);
+    color: #fff;
     border-radius: 9999px;
     border: 2px solid #555; 
     background-color: transparent;
@@ -585,16 +586,6 @@ main { padding-top: 100px; }
     display: flex; 
     justify-content: center;
     align-items: center;
-}
-
-.texturaparede {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath fill='%23282828' fill-opacity='0.1' d='M0 0h40v40H0zm40 40h40v40H40z'/%3E%3C/svg%3E");
-    z-index: 1;
 }
 
 
@@ -824,9 +815,7 @@ main { padding-top: 100px; }
     .menu-toggle {
         display: none;
     }
-    #eventos{
-        padding-top: 20vh;
-    }
+    
 }
 
 
