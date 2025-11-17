@@ -20,8 +20,8 @@ Plataforma web criada para o Lobos Rock Bar, unindo a estética underground com 
 🔗 Acesse o Site
 
 <p align="center">
-<a href="[COLOCAR O LINK DO SEU SITE DO GITHUB PAGES AQUI]" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/ACESSAR%2520SITE%2520-VERMELHO%2520ROCK-red%3Fstyle%3Dfor-the-badge%26logo%3Dapache%26logoColor%3Dwhite" alt="Acessar o Lobos Rock Bar">
+<a href="https://nassilvayara.github.io/Lobos-Rock-Bar/" target="_blank">
+<img src="inicio.png" alt="Acessar o Lobos Rock Bar">
 </a>
 </p>
 
