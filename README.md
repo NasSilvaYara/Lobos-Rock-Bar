@@ -17,8 +17,9 @@
 🐺 LOBOS ROCK BAR: APRESENTAÇÃO DO PROJETO INTERDISCIPLINAR
 
 Plataforma web criada para o Lobos Rock Bar, unindo a estética underground com a funcionalidade de um site de serviços.
+<p align="center">
 🔗 Acesse o Site
-
+</p>
 <p align="center">
 <a href="https://nassilvayara.github.io/Lobos-Rock-Bar/" target="_blank">
 <img src="inicio.png" alt="Acessar o Lobos Rock Bar">
