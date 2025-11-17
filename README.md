@@ -68,19 +68,18 @@ Yara Nascimento da Silva
 https://www.linkedin.com/in/silvyara/
 
 
-
 <p align="center">
     <a href="https://www.linkedin.com/in/gabriel-alves-798160382/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-Gabriel%20Alves-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Gabriel Alves">
+        <i class="fa fa-linkedin" style="font-size: 40px;"></i>
     </a>
     <a href="https://www.linkedin.com/in/niczonha/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-Nicoly%20dos%20Santos%20Silva-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Nicoly dos Santos Silva">
+        <i class="fa fa-linkedin" style="font-size: 40px;"></i>
     </a>
     <a href="https://www.linkedin.com/in/livia-de-queiroz-schendroski-606b3926b/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-Livia%20de%20Queiroz-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Livia de Queiroz">
+        <i class="fa fa-linkedin" style="font-size: 40px;"></i>
     </a>
     <a href="https://www.linkedin.com/in/silvyara/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-Yara%20Nascimento-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Yara Nascimento">
+        <i class="fa fa-linkedin" style="font-size: 40px;"></i>
     </a>
 </p>
 
