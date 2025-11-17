@@ -46,8 +46,6 @@ A tela inicial, projetada para impacto imediato e alinhada à estética escura e
 
 Carrossel Dinâmico
 
-Demonstração da interatividade da seção [ESPECIFIQUE A SEÇÃO COM GIF], mostrando a promoção fluida dos eventos.
-
 <p align="center">
 <img src="./img/slider-demo.gif" alt="Demonstração do Slider de Eventos" width="700">
 </p>
