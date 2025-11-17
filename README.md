@@ -16,8 +16,7 @@
 
 🐺 LOBOS ROCK BAR: APRESENTAÇÃO DO PROJETO INTERDISCIPLINAR
 
-"Plataforma web criada para o Lobos Rock Bar, unindo a estética underground com a funcionalidade de um site de serviços. Foco total em Mobile-First."
-
+Plataforma web criada para o Lobos Rock Bar, unindo a estética underground com a funcionalidade de um site de serviços.
 🔗 Acesse o Site
 
 <p align="center">
