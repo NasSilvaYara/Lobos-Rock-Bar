@@ -130,7 +130,136 @@
                 </ul>
             </div>
         </section>
-        <section id="cardapio"></section>
+
+        <section id="cardapio" class="bg-gray-900 min-h-screen flex flex-col items-center justify-center p-4"
+            style="padding-top: 5vh; padding-bottom: 5vh;">
+            <h2 style="color: #ff751f; margin-bottom: 40px; font-size: 2.5em; text-align: center;">Cardápio</h2>
+
+            <div class="w-full max-w-5xl mx-auto menu-bg-card p-6 md:p-10 rounded-xl shadow-2xl border border-gray-700">
+
+                <header class="text-center mb-10 md:mb-16">
+                    <h2
+                        class="section-title" style="color: #dddddd; margin-bottom: 10px; font-size: 1.7em;">
+                        Porções
+                    </h2>
+                    <p class="section-title" style="color: #ffffff88; margin-bottom: 20px; font-size: 0.9em;">Imagens meramente ilustrativas. Consulte a disponibilidade dos itens com o seu garçom.</p>
+                </header>
+
+                <div class="cardapio-grid-container">
+    
+    <div class="card-item">
+        <img src="img/porcoes/batata-frita.png" alt="Porção de Batata Frita" class="item-image">
+        
+        <h3 class="nomebebida">BATATA FRITA CLÁSSICA</h3>
+        <p class="ingredientesbebida">Porção de batata frita padrão, crocante por fora e macia por dentro. Acompanhada de maionese temperada da casa.</p>
+        
+        <p class="precobebida">
+            <span class="moeda">R$</span> 
+            25,00
+        </p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/porcoes/batata-cheddar.png" alt="Buffalo Wings Apimentada" class="item-image">
+        
+        <h3 class="nomebebida">BATATA FRITA C/ CHEDDAR E BACON</h3>
+        
+        <p class="precobebida">
+            <span class="moeda">R$</span> 
+            32,00
+        </p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/porcoes/aneis-cebola.png" alt="Anéis de Cebola Crocantes" class="item-image">
+        
+        <h3 class="nomebebida">ANÉIS DE CEBOLA</h3>
+        <p class="precobebida">
+            <span class="moeda">R$</span> 
+            29,00
+        </p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/porcoes/iscas-frango.png" alt="Iscas de Frango Crocantes" class="item-image">
+    
+        <h3 class="nomebebida">COXINHA DE FRANGO</h3>
+        <p class="ingredientesbebida">Coxinha da asa levemente apimentada</p>
+        
+        <p class="precobebida">
+            <span class="moeda">R$</span> 
+            39,00
+        </p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/porcoes/calabresa.png" alt="Tábua de Frios Rock" class="item-image">
+        
+        <h3 class="nomebebida">CALABRESA ACEBOLADA </h3>
+        <p class="ingredientesbebida">Com mine torradas temperadas</p>
+        
+        <p class="precobebida">
+            <span class="moeda">R$</span> 
+            36,00
+        </p>
+    </div>
+</div>
+
+            <div class="w-full max-w-5xl mx-auto menu-bg-card p-6 md:p-10 rounded-xl shadow-2xl border border-gray-700">
+
+                <header class="text-center mb-10 md:mb-16">
+                    <h2
+                        class="section-title" style="color: #dddddd; margin-bottom: 10px; font-size: 1.7em;">
+                        Bebidas
+                    </h2>
+                    <p class="section-title" style="color: #ffffff88; margin-bottom: 20px; font-size: 0.9em;">Imagens meramente ilustrativas. Consulte a disponibilidade dos itens com o seu garçom.</p>
+                </header>
+    
+            
+            <div class="secao">
+                <div class="menu">
+                    <div id="lista-categorias" style="display: flex; justify-content: center; gap: 1rem;">
+                    </div>
+                </div>
+                <div class="palcovisual">
+                    <div class="texturaparede"></div>
+                    <div class="iconenavegacao esquerda" id="setaesquerda">
+                        <span class="iconesimbolo"><</span>
+                    </div>
+                    <div class="iconenavegacao direita" id="setadireita">
+                        <span class="iconesimbolo">></span>
+                    </div>
+                    <div class="bebidas">
+                        <div class="containerbebida">
+                            <div class="estilocopo" id="bebidalcopo">
+                            </div>
+                            <div class="detalhesbebida">
+                                <h3 class="nomebebida" id="bebidalnome">NOME DO DRINK</h3>
+                                <p class="ingredientesbebida" id="bebidalingredientes">Ingredientes, descrição e detalhes
+                                    vão aqui. Serão injetados pelo JS.</p>
+                                <p class="tagbebida" id="bebidaltag">Tag</p>
+                                <div class="precobebida" id="bebidalpreco">
+                                    <span class="moeda">R$</span> 0.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="containerbebida">
+                            <div class="estilocopo" id="bebida2copo">
+                            </div>
+                            <div class="detalhesbebida">
+                                <h3 class="nomebebida" id="bebida2nome">NOME DO DRINK 2</h3>
+                                <p class="ingredientesbebida" id="bebida2ingredientes">Ingredientes, descrição e detalhes
+                                    vão aqui. Serão injetados pelo JS.</p>
+                                <p class="tagbebida" id="bebida2tag">Tag</p>
+                                <div class="precobebida" id="bebida2preco">
+                                    <span class="moeda">R$</span> 0.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <section id="parcerias">
             <p class="tituloParceria" style="color: #ff751f; margin-bottom: 40px; font-size: 2.5em;">Parcerias</p>
             <div class="informacoesParcerias">
@@ -197,7 +326,7 @@
                     <img src="img/galeria8.jpeg" alt="">
                 </div>
                 <div id="lightbox" class="lightbox">
-                    <span class="fechar">&times;</span>
+                    <span class="fechar">×</span>
                     <img class="lightbox-img" id="lightbox-img">
                 </div>
             </div>
@@ -244,5 +373,3 @@
 </body>
 
 </html>
-
-
