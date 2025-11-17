@@ -53,21 +53,21 @@ Demonstração da interatividade da seção [ESPECIFIQUE A SEÇÃO COM GIF], mos
 
 👥 EQUIPE DSM FATEC ITAQUERA
 
---Gabriel da Silva Alves
---Paulo Henrique Soares Pereira
---Nicoly dos Santos Silva
+Gabriel da Silva Alves
 
-https://www.linkedin.com/in/niczonha/
-https://github.com/niczonha
+Paulo Henrique Soares Pereira
 
---Livia de Queiroz Schendroski
---Yara Nascimento da Silva
+Nicoly dos Santos Silva
 
+Livia de Queiroz Schendroski
 
-Contato
+Yara Nascimento da Silva
 
 
-[Link para o perfil do GitHub ou LinkedIn]
+
+
+
+
 
 
 
