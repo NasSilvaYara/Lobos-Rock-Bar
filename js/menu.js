@@ -606,3 +606,20 @@
             lightbox.style.display = "none";
         }
     });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const navbar = document.querySelector('.navbar');
+    const navLinks = document.querySelectorAll('.navbar a');
+    const iconOpen = document.querySelector('.icon-abrir');
+    const iconClose = document.querySelector('.icon-fechar');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navbar.classList.remove('active');
+            iconOpen.style.display = 'block';
+            iconClose.style.display = 'none';
+        });
+    });
+});
+
+
