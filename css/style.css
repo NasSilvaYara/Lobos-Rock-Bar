@@ -408,8 +408,8 @@ ul li {
 }
 
 ul li .icon {
-    width: 45px;
-    height: 45px;
+    width: 22px;
+    height: 22px;
 }
 
 #cardapio {
@@ -1405,5 +1405,5 @@ footer {
     .social {
         justify-content: center;
     }
-
 }
+
