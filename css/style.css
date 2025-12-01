@@ -404,7 +404,7 @@ main { padding-top: 100px; }
 ul li {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
 }
 
 ul li .icon {
@@ -1406,3 +1406,4 @@ footer {
         justify-content: center;
     }
 }
+
