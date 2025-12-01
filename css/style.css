@@ -404,12 +404,12 @@ main { padding-top: 100px; }
 ul li {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 7px;
 }
 
 ul li .icon {
-    width: 22px;
-    height: 22px;
+    width: 90px;
+    height: 90px;
 }
 
 #cardapio {
@@ -1406,4 +1406,5 @@ footer {
         justify-content: center;
     }
 }
+
 
