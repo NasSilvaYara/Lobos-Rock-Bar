@@ -413,36 +413,21 @@ main { padding-top: 100px; }
     width: 100%;
     margin: 0; 
 }
-.cardapio-grid-container {
-    display: block;
-    margin: 3rem auto;
-    max-width: 600px; 
-    padding: 0 15px; 
-}
 
 .cardapio-grid-container {
     display: grid; 
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem; 
     margin: 3rem auto;
-    max-width: 1000px;
+    max-width: 1150px;
     padding: 0 15px; 
-}
-
-@media (min-width: 640px) {
-    .cardapio-grid-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem; 
-    }
 }
 
 @media (min-width: 1024px) {
     .cardapio-grid-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem; 
+        grid-template-columns: repeat(5, 1fr);
     }
 }
-
 
 .card-item {
     display: flex;
@@ -450,8 +435,16 @@ main { padding-top: 100px; }
     margin: 0; 
     background-color: #2c2c2c; 
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .card-item {
+        width: 70%;        
+        margin: 0 auto;    
+        padding: 0.4rem;   
+    }
 }
 
 .card-item:hover {
@@ -461,23 +454,58 @@ main { padding-top: 100px; }
 
 .item-image {
     width: 100%;
-    height: 180px; 
-    overflow: hidden;
+    height: auto;      
     border-radius: 8px; 
     margin-bottom: 15px;
+    overflow: hidden;
 }
 
 .item-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
+    width: 100%;         
+    height: auto;        
+    object-fit: contain; 
+    display: block;      
     transition: transform 0.5s ease;
 }
-
 .card-item:hover .item-image img {
     transform: scale(1.05); 
 }
 
+.nomeporcao {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 3px #000;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
+}
+
+.ingredientesporcao {
+    font-size: 1rem; 
+    color: #cccccc;
+    line-height: 1.4; 
+    margin: 0 0 10px 0;
+    text-align: center;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.precoporcao {
+    font-size: 1.25rem;
+    color: #ffffff;
+    line-height: 1;
+    margin: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
 
 .menu-item-title {
     font-size: 1.6rem; 
@@ -505,6 +533,7 @@ main { padding-top: 100px; }
     border-radius: 6px;
     display: inline-block;
 }
+
 .text-glow {
     text-shadow: 0 0 8px rgba(255, 165, 0, 0.8), 0 0 15px rgba(255, 140, 0, 0.6);
 }
@@ -516,6 +545,12 @@ main { padding-top: 100px; }
     text-align: center;
     margin-bottom: 25px; 
     padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .subtitulo-menu-bebidas {
+        font-size: 2.5rem;   
+    }
 }
 
 .secao {
@@ -536,39 +571,37 @@ main { padding-top: 100px; }
 .menu {
     width: 100%;
     background-color: #101010; 
-   
     z-index: 10;
     padding: 1rem 0; 
     flex-shrink: 0;
     overflow-x: auto; 
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
+    overflow-x: hidden;
 }
 
-.menu-inner {
+#lista-categorias {
     display: flex;
-    justify-content: center; 
-    gap: 15px; 
-    padding: 0 20px;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; 
+    padding: 1rem;
 }
 
 .botaocategoria {
-    padding: 0.6rem 1.2rem; 
+    padding: 0.6rem 1.2rem;
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
-    border-radius: 9999px;
-    border: 2px solid #555; 
-    background-color: transparent;
-    transition: all 0.3s;
+    border-radius: 998px;
+    border: 2px solid #181717;
+    background: rgba(54, 54, 54, 0.4);
     cursor: pointer;
     white-space: nowrap;
-    text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.4);
-
 }
+
 .botaocategoria:hover {
-    color: #fff;
+    color: #ff751f;
     border-color: #ff751f;
 }
 .botaocategoria.ativo {
@@ -579,6 +612,14 @@ main { padding-top: 100px; }
     transform: scale(1.05);
 }
 
+@media (max-width: 768px) {
+    .botaocategoria {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+
 .palcovisual {
     position: relative;
     flex-grow: 1;
@@ -588,17 +629,16 @@ main { padding-top: 100px; }
     align-items: center;
 }
 
-
 .bebidas {
     position: relative; 
-    z-index: 3;
+    z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 325px;
     display: flex;
     flex-direction: row;
     justify-content: center; 
     align-items: flex-end; 
-    gap: 4rem; 
+    gap: 3rem; 
     padding-bottom: 0;
 }
 
@@ -608,106 +648,137 @@ main { padding-top: 100px; }
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    border: 1px solid #777777;
+    border: 1px solid #ff745f;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 5;
+    z-index: 3;
     cursor: pointer;
-    background-color: rgba(255, 244, 244, 0.638);
+    background-color: rgba(39, 39, 39, 0.638);
     transition: background-color 0.2s;
 }
 .iconenavegacao.esquerda { left: 4%; }
 .iconenavegacao.direita { right: 4%; }
 .iconesimbolo {
-    color: #d1d1d1;
+    color: #ff745f;
     font-size: 1.5rem;
 }
 
 .containerbebida {
-    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: row;  
+    gap: 2.5px;             
+    margin: 0;   
     padding: 0;
 }
 
 .estilocopo {
-    position: relative;
     display: block;
-    height: 400px; 
-    width: 250px; 
-    max-width: 90%; 
-    background-color: transparent;
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0;
+    width: auto;         
+    height: auto;          
     margin: 0;
-    margin-bottom: 0.5rem;
+    padding: 0;
 }
 
 .estilocopo img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    z-index: 1;
+    display: block;
+    width: 100%;           
+    height:  295px;
 }
-
 
 .detalhesbebida {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    width: 250px;
+    align-items: left;
+    justify-content: center;
+    width: 300px;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .nomebebida {
-    font-size: 1rem;
+    font-size: 2.2rem;
     font-weight: 900;
     color: #ffffff;
-    letter-spacing: 0.1em;
-    text-shadow: 0 0 3px #000;
-    line-height: 1.1;
-    text-align: center;
-}
-@media (min-width: 768px) {
-    .nomebebida {
-        font-size: 1.25rem;
-    }
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
 }
 
 .ingredientesbebida {
     font-size: 1rem; 
     color: #cccccc;
-    margin-top: 0.5rem;
-    text-align: center;
-    max-width: 100%;
     line-height: 1.4; 
-    text-transform: none;
-    min-height: 40px; 
-    margin-bottom: 15px; 
+    margin: 0 0 10px 0;
+    max-width: 100%; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .precobebida {
-    font-size: 1.25rem;
-    font-weight: 900;
+    font-size: 1rem;
+    font-weight: 90;
     color: #ffffff;
-    margin-top: 0.5rem;
     line-height: 1;
-    text-align: center;
+    margin: 0;
 }
+
 .moeda { 
     color: #ffffff; 
     font-weight: 800; 
 }
+
 .tagbebida { 
     display: none;
+}
+
+@media (max-width: 768px) {
+
+    .bebidas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; 
+        padding: 1rem 0; 
+    }
+
+    .estilocopo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .estilocopo img {
+        width: 60vw;      
+        max-width: 200px;  
+        height: auto;      
+        object-fit: contain; 
+        display: block;
+    }
+    
+    .containerbebida {
+        width: 100%;
+        max-width: 385px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .detalhesbebida,
+    .ingredientesbebida,
+    .precobebida,
+    .nomebebida {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nomebebida {
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+    }
 }
 
 #servicos {

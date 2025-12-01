@@ -127,322 +127,88 @@
         });
 
     const menuData = {
-            "Drinks": [
-                {
-                    nome: "ALEXANDER",
-                    ingredientes: "Licor de cacau, Leite condensado, conhaque, canela e gelo",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinksalexander.png",
-                },
-                {
-                    nome: "ICE KISS",
-                    ingredientes: "Vodka de frutas vermelhas, Leite condensado, morango e gelo",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinkicekiss.png",
-                },
-                {
-                    nome: "CUBA LIBRE",
-                    ingredientes: "Rum, Coca-Cola, Fatia de limão e gelo",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinkcubalibre.png",
-                },
-                {
-                    nome: "NEGRONI",
-                    ingredientes: "Vermoth rosso, campari, gin, laranja e limão e gelo.",
-                    preco: "20.00",
-                    imagem: "img/bebidas/drinknegroni.png",
-                },
-                {
-                    nome: "FRONZEN",
-                    ingredientes: "Skol Beats, Leite condensado, limão e gelo.",
-                    preco: "20.00",
-                    imagem: "img/bebidas/drinkfronzen.png",
-                },
-                {
-                    nome: "JAGER BOMGER",
-                    ingredientes: "Jagermaster com Redbull ou Heineken.",
-                    preco: "32.00",
-                    imagem: "img/bebidas/drinkjagerbomger.png",
-                },
-                {
-                    nome: "MOJITO",
-                    ingredientes: "Rum branco, soda ou água c/gás, hotela, limão e gelo.",
-                    preco: "30.00",
-                    imagem: "img/bebidas/drinkmojito.png",
-                },
-                {
-                    nome: "GIN TÔNICA",
-                    ingredientes: "Gin, Água Tônica (Limão, Morango ou maracujá)",
-                    preco: "20.00",
-                    imagem: "img/bebidas/drinkgintonica.png",
-                },
-                {
-                    nome: "HI-FI",
-                    ingredientes: "Smirnoff, Fanta Laranja, gelo e rodela de laranja.",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinkhi-fi.png",
-                },
-                {
-                    nome: "MELANCIA BABY",
-                    ingredientes: "Beba seu drink direto na melancia com smirnoff, saque ou cachaça e ainda degusta a propria fruta (Acompanha colher).",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinkmelancia baby.png",
-                },
-                {
-                    nome: "CANELINHA PRÓ",
-                    ingredientes: "Canelinha, Leite condensado, limão, canela em pau e gelo.",
-                    preco: "15.00",
-                    imagem: "img/bebidas/drinkcanelinhapro.png",
-                },
-                {
-                    nome: "GIN MELANCIA",
-                    ingredientes: "Gin de melancia, gelo de melancia e energético melancia.",
-                    tag: "POPULAR",
-                    preco: "20.00",
-                    imagem: "img/bebidas/drinkginmelancia.png",
-                },
-                {
-                    nome: "CHEVETTE",
-                    preco: "18.00",
-                    imagem: "img/bebidas/drinkchavette.png",
-                },
-                {
-                    nome: "VODKA RED FRUITS",
-                    ingredientes: "Vodka de frutas vermelhas, energético e gelo.",
-                    preco: "15.00",
-                    imagem: "img/bebidas/drinkvodkaredfruits.png",
-                },
-            ],
-            "Caipirinhas": [
-                {
-                    nome: "CAIPIRINHA LIMÃO",
-                    preco: "c/ cachaça ou saque: 18.00 c/Vodka: 20.00",
-                    imagem: "img/bebidas/CaipirinhaLimao.png",
-                },
-                {
-                    nome: "CAIPIRINHA MARACUJA",
-                    preco: "c/cachaça ou saque: 20.00 c/Vodka: 22.00",
-                    imagem: "img/bebidas/CaipirinhaMaracuja.png",
-                },
-                {
-                    nome: "CAIPIRINHA MORANGO",
-                    preco: "c/ cachaça ou saque: 20.00 c/Vodka: 22.00",
-                    imagem: "img/bebidas/CaipirinhaMorango.png",
-                }
-            ],
-            "Doses": [
-                {
-                    nome: "DREHER COM LIMÃO E MEL",
-                    preco: "8.00",
-                    imagem: "Img/bebidas/dosedreher.png",
-                },
-                {
-                    nome: "KARIRI COM MEL E LIMÃO",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosekariri.png",
-                },
-                {
-                    nome: "MARIA MOLE",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosemariamole.png",
-                },
-                {
-                    nome: "SANGUE DE MORCEGO",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosesanguedemorcego.png",
-                },
-                {
-                    nome: "BOMBEIRINHO",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosebombeirinho.png",
-                },
-                {
-                    nome: "CANELINHA",
-                    preco: "7.00",
-                    imagem: "img/bebidas/dosecanelinha.png",
-                },
-                {
-                    nome: "VODKA SMIRNOFF",
-                    preco: "10.00",
-                    imagem: "img/bebidas/dosevodkasmirnoff.png",
-                },
-                {
-                    nome: "CONTINI",
-                    preco: "8.00",
-                    imagem: "img/bebidas/dosecontini.png",
-                },
-                {
-                    nome: "RUN MONTILA",
-                    preco: "8.00",
-                    imagem: "img/bebidas/doserunmontila.png",
-                },
-            ],
-            "Shots": [
-                {
-                    nome: "ASAS MINAS",
-                    preco: "8.00",
-                    imagem: "img/bebidas/shotassasminas.png",
-                },
-                {
-                    nome: "JAGERMEISTER",
-                    preco: "15.00",
-                    imagem: "img/bebidas/shotjagermeister.png",
-                },
-                {
-                    nome: "CURAÇAU BLUE",
-                    preco: "10.00",
-                    imagem: "img/bebidas/shotcuraçaublue.png",
-                },
-                {
-                    nome: "SELETA",
-                    preco: "8.00",
-                    imagem: "img/bebidas/shotseleta.png",
-                },
-                {
-                    nome: "TEQUILA JOSÉ CUERVO",
-                    preco: "15.00",
-                    imagem: "img/bebidas/shottequila.png",
-                },
-                {
-                    nome: "GIN",
-                    preco: "8.00",
-                    imagem: "img/bebidas/shotgin.png",
-                },
-                {
-                    nome: "ABSINTO",
-                    preco: "10.00",
-                    imagem: "img/bebidas/shotabisinto.png",
-                },
-                {
-                    nome: "VELHO BARREIRO CAFÉ",
-                    preco: "8.00",
-                    imagem: "img/bebidas/shotvelhobarreiro.png",
-                },
-            ],
-            "Whisky": [
-                {
-                    nome: "JACK DANIEL'S BLACK",
-                    preco: "30.00",
-                    imagem: "img/bebidas/whiskyjackblack.png",
-                },
-                {
-                    nome: "JACK DANIEL'S FIRE",
-                    preco: "30.00",
-                    imagem: "img/bebidas/whiskyjackfire.png",
-                },
-                {
-                    nome: "RED LABEL",
-                    preco: "20.00",
-                    imagem: "img/bebidas/whiskyredlabel.png",
-                },
-                {
-                    nome: "BLACK LABEL",
-                    preco: "35.00",
-                    imagem: "img/bebidas/whiskyblacklabel.png",
-                },
-                {
-                    nome: "WHITE HORSE",
-                    preco: "15.00",
-                    imagem: "img/bebidas/whiskywhitehorse.png",
-                },
-            ],
-            "Vinhos": [
-                {
-                    nome: "GARRAFA PERGOLA",
-                    preco: "40.00",
-                    imagem: "img/bebidas/vinhopergola.png",
-                },
-                {
-                    nome: "GARRAFA CABERNET SAUVIGNON",
-                    preco: "40.00",
-                    imagem: "img/bebidas/vinhocarbenet.png",
-                },
-            ],
-            "Bebidas não alcoólicas": [
-                {
-                    nome: "COCA LATA",
-                    preco: "7.00",
-                    imagem: "img/bebidas/BNAcocalata.png",
-                },
-                {
-                    nome: "GUARANÁ LATA",
-                    preco: "7.00",
-                    imagem: "img/bebidas/BNAguarana.png",
-                },
-                {
-                    nome: "ÁGUA S/C GÁS",
-                    preco: "6.00",
-                    imagem: "img/bebidas/BNAaguacgas.png",
-                },
-                {
-                    nome: "SODA ITALIANA",
-                    preco: "10.00",
-                    imagem: "img/bebidas/BNAsodaitaliana.png",
-                },
-                {
-                    nome: "SUCO DE POLPA",
-                    preco: "9.00",
-                    imagem: "img/bebidas/BNAsucodepolpa.png",
-                },
-                {
-                    nome: "RED BULL",
-                    preco: "15.00",
-                    imagem: "img/bebidas/BNAredbull.png",
-                },
-                {
-                    nome: "SUCO DE LIMÃO NATURAL",
-                    preco: "9.00",
-                    imagem: "img/bebidas/BNAsucodelimao.png",
-                },
-            ],
-            "Cervejas": [
-                {
-                    nome: "SKOL 300ML",
-                    preco: "7.00",
-                    imagem: "img/bebidas/cervejaskol.png",
-                },
-                {
-                    nome: "BUDWISER LONG NECK",
-                    preco: "12.00",
-                    imagem: "img/bebidas/cervejabundwiser.png",
-                },
-                {
-                    nome: "STELLA LONG NECK",
-                    preco: "12.00",
-                    imagem: "img/bebidas/cervejastella.png",
-                },
-                {
-                    nome: "BRAHMA P MALTE 350ML",
-                    preco: "7.00",
-                    imagem: "img/bebidas/cervejabrahma.png",
-                },
-                {
-                    nome: "SKOL BEATS LONG NECK",
-                    preco: "14.00",
-                    imagem: "img/bebidas/cervejaskolbeats.png",
-                },
-                {
-                    nome: "SMIRNOFF ICE LONG NECK",
-                    preco: "15.00",
-                    imagem: "img/bebidas/cervejasmirnoff.png",
-                },
-                {
-                    nome: "51 ICE LONG NECK",
-                    preco: "12.00",
-                    imagem: "img/bebidas/cerveja51.png",
-                },
-                {
-                    nome: "DRAFT",
-                    preco: "20.00",
-                    imagem: "img/bebidas/cervejadraft.png",
-                },
-                {
-                    nome: "XEQUE-MATE",
-                    preco: "7.00",
-                    imagem: "img/bebidas/cervejaxeque.png",
-                },
-            ]
-        };
+
+                "Drinks": [
+                    { nome: "Alexander", ingredientes: "Licor de cacau, Leite condensado, conhaque, canela e gelo", preco: "18.00", imagem: "img/bebidas/drinksalexander.png" },
+                    { nome: "Ice kiss", ingredientes: "Vodka de frutas vermelhas, Leite condensado, morango e gelo", preco: "18.00", imagem: "img/bebidas/drinkicekiss.png" },
+                    { nome: "Cuba libre", ingredientes: "Rum, Coca-Cola, Fatia de limão e gelo", preco: "18.00", imagem: "img/bebidas/drinkcubalibre.png" },
+                    { nome: "Negroni", ingredientes: "Vermoth rosso, campari, gin, laranja e limão e gelo.", preco: "20.00", imagem: "img/bebidas/drinknegroni.png" },
+                    { nome: "Fronzen", ingredientes: "Skol Beats, Leite condensado, limão e gelo.", preco: "20.00", imagem: "img/bebidas/drinkfronzen.png" },
+                    { nome: "Jager bomger", ingredientes: "Jagermaster com Redbull ou Heineken.", preco: "32.00", imagem: "img/bebidas/drinkjagerbomger.png" },
+                    { nome: "Mojito", ingredientes: "Rum branco, soda ou água c/gás, hotela, limão e gelo.", preco: "30.00", imagem: "img/bebidas/drinkmojito.png" },
+                    { nome: "Gin tônica", ingredientes: "Gin, Água Tônica (Limão, Morango ou maracujá)", preco: "20.00", imagem: "img/bebidas/drinkgintonica.png" },
+                    { nome: "Hi-fi", ingredientes: "Smirnoff, Fanta Laranja, gelo e rodela de laranja.", preco: "18.00", imagem: "img/bebidas/drinkhi-fi.png" },
+                    { nome: "Melancia baby", ingredientes: "Beba seu drink direto na melancia...", preco: "18.00", imagem: "img/bebidas/drinkmelancia baby.png" },
+                    { nome: "Canelinha pró", ingredientes: "Canelinha, Leite condensado, limão, canela em pau e gelo.", preco: "15.00", imagem: "img/bebidas/drinkcanelinhapro.png" },
+                    { nome: "Gin melancia", ingredientes: "Gin de melancia, gelo de melancia e energético melancia.", tag: "POPULAR", preco: "20.00", imagem: "img/bebidas/drinkginmelancia.png" },
+                    { nome: "Chevette", preco: "18.00", imagem: "img/bebidas/drinkchavette.png" },
+                    { nome: "Vodka red fruits", ingredientes: "Vodka de frutas vermelhas, energético e gelo.", preco: "15.00", imagem: "img/bebidas/drinkvodkaredfruits.png" }
+                ],
+
+                "Caipirinhas": [
+                    { nome: "Caipirinha limão", ingredientes: "c/ cachaça ou saque: R$ 18.00 c/Vodka: R$ 20.00", imagem: "img/bebidas/CaipirinhaLimao.png" },
+                    { nome: "Caipirinha maracujá", ingredientes: "c/cachaça ou saque: R$ 20.00 c/Vodka: R$ 22.00", imagem: "img/bebidas/CaipirinhaMaracuja.png" },
+                    { nome: "Caipirinha morango", ingredientes: "c/ cachaça ou saque: R$ 20.00 c/Vodka: R$ 22.00", imagem: "img/bebidas/CaipirinhaMorango.png" }
+                ],
+
+                "Doses": [
+                    { nome: "Dreher com limão e mel", preco: "8.00", imagem: "Img/bebidas/dosedreher.png" },
+                    { nome: "Kariri com mel e limão", preco: "8.00", imagem: "img/bebidas/dosekariri.png" },
+                    { nome: "Maria mole", preco: "8.00", imagem: "img/bebidas/dosemariamole.png" },
+                    { nome: "Sangue de morcego", preco: "8.00", imagem: "img/bebidas/dosesanguedemorcego.png" },
+                    { nome: "Bombeirinho", preco: "8.00", imagem: "img/bebidas/dosebombeirinho.png" },
+                    { nome: "Canelinha", preco: "7.00", imagem: "img/bebidas/dosecanelinha.png" },
+                    { nome: "Vodka smirnoff", preco: "10.00", imagem: "img/bebidas/dosevodkasmirnoff.png" },
+                    { nome: "Contini", preco: "8.00", imagem: "img/bebidas/dosecontini.png" },
+                    { nome: "Run montila", preco: "8.00", imagem: "img/bebidas/doserunmontila.png" }
+                ],
+
+                "Shots": [
+                    { nome: "Asas minas", preco: "8.00", imagem: "img/bebidas/shotassasminas.png" },
+                    { nome: "Jagermeister", preco: "15.00", imagem: "img/bebidas/shotjagermeister.png" },
+                    { nome: "Curaçau blue", preco: "10.00", imagem: "img/bebidas/shotcuraçaublue.png" },
+                    { nome: "Seleta", preco: "8.00", imagem: "img/bebidas/shotseleta.png" },
+                    { nome: "Tequila José cuervo", preco: "15.00", imagem: "img/bebidas/shottequila.png" },
+                    { nome: "Gin", preco: "8.00", imagem: "img/bebidas/shotgin.png" },
+                    { nome: "Absinto", preco: "10.00", imagem: "img/bebidas/shotabisinto.png" },
+                    { nome: "Velho barreiro café", preco: "8.00", imagem: "img/bebidas/shotvelhobarreiro.png" }
+                ],
+
+                "Whisky": [
+                    { nome: "Jack daniel's black", preco: "30.00", imagem: "img/bebidas/whiskyjackblack.png" },
+                    { nome: "Jack daniel's fire", preco: "30.00", imagem: "img/bebidas/whiskyjackfire.png" },
+                    { nome: "Red label", preco: "20.00", imagem: "img/bebidas/whiskyredlabel.png" },
+                    { nome: "Black label", preco: "35.00", imagem: "img/bebidas/whiskyblacklabel.png" },
+                    { nome: "White horse", preco: "15.00", imagem: "img/bebidas/whiskywhitehorse.png" }
+                ],
+
+                "Vinhos": [
+                    { nome: "Garrafa pergola", preco: "40.00", imagem: "img/bebidas/vinhopergola.png" },
+                    { nome: "Garrafa cabernet sauvignon", preco: "40.00", imagem: "img/bebidas/vinhocarbenet.png" }
+                ],
+
+                "Bebidas não alcoólicas": [
+                    { nome: "Coca lata", preco: "7.00", imagem: "img/bebidas/BNAcocalata.png" },
+                    { nome: "Guaraná lata", preco: "7.00", imagem: "img/bebidas/BNAguarana.png" },
+                    { nome: "Água s/c gás", preco: "6.00", imagem: "img/bebidas/BNAaguacgas.png" },
+                    { nome: "Red bull", preco: "15.00", imagem: "img/bebidas/BNAredbull.png" },
+                    { nome: "Soda italiana", preco: "10.00", imagem: "img/bebidas/BNAsodaitaliana.png" },
+                    { nome: "Suco de polpa", preco: "9.00", imagem: "img/bebidas/BNAsucodepolpa.png" },
+                    { nome: "Suco de limão natural", preco: "9.00", imagem: "img/bebidas/BNAsucodelimao.png" }
+                ],
+
+                "Cervejas": [
+                    { nome: "Skol 300ml", preco: "7.00", imagem: "img/bebidas/cervejaskol.png" },
+                    { nome: "Budwiser long neck", preco: "12.00", imagem: "img/bebidas/cervejabundwiser.png" },
+                    { nome: "Stella long neck", preco: "12.00", imagem: "img/bebidas/cervejastella.png" },
+                    { nome: "Brahma p malte 350ml", preco: "7.00", imagem: "img/bebidas/cervejabrahma.png" },
+                    { nome: "Skol beats long neck", preco: "14.00", imagem: "img/bebidas/cervejaskolbeats.png" },
+                    { nome: "Smirnoff ice long neck", preco: "15.00", imagem: "img/bebidas/cervejasmirnoff.png" },
+                    { nome: "51 ice long neck", preco: "12.00", imagem: "img/bebidas/cerveja51.png" },
+                    { nome: "Draft", preco: "20.00", imagem: "img/bebidas/cervejadraft.png" },
+                    { nome: "Xeque-mate", preco: "7.00", imagem: "img/bebidas/cervejaxeque.png" }
+                ]
+    }
 
         let categoriaatual = "Drinks";
         let indiceatual = 0;
@@ -457,7 +223,7 @@
 
             document.getElementById('bebidalnome').textContent = bebida1 ? bebida1.nome : "N/A";
  
-            document.getElementById('bebidalingredientes').textContent = bebida1 ? (bebida1.ingredientes && bebida1.ingredientes.length > 50 ? bebida1.ingredientes.slice(0, 50) + '...' : bebida1.ingredientes || "---") : "Sem dados.";
+            document.getElementById('bebidalingredientes').textContent = bebida1 ? (bebida1.ingredientes && bebida1.ingredientes.length > 200 ? bebida1.ingredientes.slice(0, 200) + '...' : bebida1.ingredientes || "---") : "Sem dados.";
             document.getElementById('bebidaltag').textContent = bebida1 ? bebida1.tag || "---" : "---";
 
 
