@@ -45,9 +45,7 @@
             
             const indicators = indicatorsContainer.querySelectorAll(".bolinha-item");
 
-            /**
-             * @param {number} centerIndex 
-             */
+             
             function updateSlidePositions(centerIndex) {
                 slides.forEach((slide, i) => {
                     slide.classList.remove(...perspectiveClasses);
@@ -96,9 +94,6 @@
                 });
             }
 
-            /**
-             * @param {number} newIndex 
-             */
             function moveTo(newIndex) {
                 currentIndex = (newIndex % totalSlides + totalSlides) % totalSlides;
                 updateSlidePositions(currentIndex);
@@ -154,6 +149,7 @@
                 "Doses": [
                     { nome: "Dreher com limão e mel", preco: "8.00", imagem: "Img/bebidas/dosedreher.png" },
                     { nome: "Kariri com mel e limão", preco: "8.00", imagem: "img/bebidas/dosekariri.png" },
+                    { nome: "Velho barreiro mel e limão", preco: "8.00", imagem: "img/bebidas/dosevelhobarreiro.png" },
                     { nome: "Maria mole", preco: "8.00", imagem: "img/bebidas/dosemariamole.png" },
                     { nome: "Sangue de morcego", preco: "8.00", imagem: "img/bebidas/dosesanguedemorcego.png" },
                     { nome: "Bombeirinho", preco: "8.00", imagem: "img/bebidas/dosebombeirinho.png" },
@@ -184,7 +180,8 @@
 
                 "Vinhos": [
                     { nome: "Garrafa pergola", preco: "40.00", imagem: "img/bebidas/vinhopergola.png" },
-                    { nome: "Garrafa cabernet sauvignon", preco: "40.00", imagem: "img/bebidas/vinhocarbenet.png" }
+                    { nome: "Garrafa cabernet sauvignon", preco: "40.00", imagem: "img/bebidas/vinhocarbenet.png" },
+                    { nome: "Garrafa chalise", preco: "35.00", imagem: "img/bebidas/vinhochalise.png" }
                 ],
 
                 "Bebidas não alcoólicas": [
@@ -199,9 +196,11 @@
 
                 "Cervejas": [
                     { nome: "Skol 300ml", preco: "7.00", imagem: "img/bebidas/cervejaskol.png" },
+                    { nome: "Heineken long neck", preco: "12.00", imagem: "img/bebidas/cervejaheineken.png" },
                     { nome: "Budwiser long neck", preco: "12.00", imagem: "img/bebidas/cervejabundwiser.png" },
                     { nome: "Stella long neck", preco: "12.00", imagem: "img/bebidas/cervejastella.png" },
                     { nome: "Brahma p malte 350ml", preco: "7.00", imagem: "img/bebidas/cervejabrahma.png" },
+                    { nome: "Corona long neck", preco: "7.00", imagem: "img/bebidas/cervejacorona.png" },
                     { nome: "Skol beats long neck", preco: "14.00", imagem: "img/bebidas/cervejaskolbeats.png" },
                     { nome: "Smirnoff ice long neck", preco: "15.00", imagem: "img/bebidas/cervejasmirnoff.png" },
                     { nome: "51 ice long neck", preco: "12.00", imagem: "img/bebidas/cerveja51.png" },
